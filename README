@@ -1,5 +1,5 @@
-quedijeentwitter:
------------------
+quedijisteentwitter:
+--------------------
 
 Esta es una aplicacion que permite consultar los 100 ultimos tweets de un usuario,
 ordena las 5 fechas con mas tweets y los despliega a traves de Google Charts.
@@ -20,8 +20,8 @@ en el archivo:
 
 En lo que se refiere a las rutas relativas a los directorios de templates y static.
 
-"Que dije" Utiliza los servicios REST de la API de Twitter 1.1. Les recomiendo que
-revisen y entienda el uso de esta API (sus restricciones, etc.)
+"quedijisteentwitter" Utiliza los servicios REST de la API de Twitter 1.1. 
+Les recomiendo que revisen y entienda el uso de esta API (sus restricciones, etc.)
  
  	https://dev.twitter.com/docs/api/1.1
  
