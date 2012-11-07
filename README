@@ -18,7 +18,11 @@ en el archivo:
 
 /django/whatTweet/whatTweet/settings.py
 
-En lo que se refiere a las rutas relativas a los directorios de templates y static.
+Debes configurar:
+	STATICFILES_DIRS
+	TEMPLATE_DIRS
+
+Debes poner las rutas relativas a los directorios de templates y static.
 
 "quedijisteentwitter" Utiliza los servicios REST de la API de Twitter 1.1. 
 Les recomiendo que revisen y entienda el uso de esta API (sus restricciones, etc.)
