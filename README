@@ -76,10 +76,10 @@ el siguiente software:
 	Ejecutar (en linux)
 	$ pip install pymongo
 
-Nota:
------
-Esta version de la aplicacion utiliza mongodb para almacenar los resultados obtenidos
-desde Twitter API 1.1. Los JSON son almacenado en mongodb; por lo que debes asegurar
+Importante!!!
+-------------
+Esta version de la aplicacion utiliza MongoDB para almacenar los resultados obtenidos
+desde Twitter API 1.1. Los JSON son almacenado en Mongodb; por lo que debes asegurar
 que cuando ejecutes la aplicacion mongo este funcionando.
 
 Para ejecutar la aplicacion:
