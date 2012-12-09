@@ -1,5 +1,5 @@
 quedijisteentwitter:
---------------------
+====================
 
 Esta es una aplicacion que permite consultar los 100 ultimos tweets de un usuario,
 ordena las 5 fechas con mas tweets y los despliega a traves de Google Charts.
@@ -13,8 +13,14 @@ que escribiste en ese dia.
 La aplicacion esta escrita en Python en el framework Django 1.4.1, utiliza Html5, 
 css3 y JQuery.
 
-Para configurar la aplicacion debes procurar cambiar los valores donde corresponda
-en el archivo:
+La aplicacion se puede desplegar en Django y Tornado Web Server.
+
+=======
+Django:
+=======
+
+Para configurar la aplicacion en Django (1.4.1) debes procurar cambiar los valores 
+donde corresponda en el archivo:
 
 /django/whatTweet/whatTweet/settings.py
 
@@ -49,16 +55,40 @@ Ejecutar (en linux)
 Una vez instalada y configurada la aplicacion puedes acceder a ella
 ejecutando:
 
-	$ python manage.py runserver:8888
+	$ python manage.py runserver 8888
 
 Y en tu navegador accediendo a la siguiente url:
 
 	http://localhost:8888/tweets
 
-Cualquier duda o consulta favor hacerlas llegar a los correos:
+========
+Tornado:
+========
 
-	rancavil@gmail.com
-	rancavil@innovaser.cl
+Para desplegar la aplicacion en Tornado Web Server 2.4.1 debes tener instalado
+el siguiente software:
 
+- oauth2 y httplib2
+	Ejecutar (en linux) 
+	$ pip install oauth2 (se instala httplib2)
+- json
+- pymongo
+	Ejecutar (en linux)
+	$ pip install pymongo
+
+Nota:
+-----
+Esta version de la aplicacion utiliza mongodb para almacenar los resultados obtenidos
+desde Twitter API 1.1. Los JSON son almacenado en mongodb; por lo que debes asegurar
+que cuando ejecutes la aplicacion mongo este funcionando.
+
+Para ejecutar la aplicacion:
+	
+	$ cd whatTweet
+	$ python tweetchart.py
+
+Luego en el navegador accediendo a la siguiente url:
+
+	http://localhost:8089
 
 ADVERTENCIA: LA APLICACION NO ES PARA MS EXPLORER 8 o menor!!!!...
