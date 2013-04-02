@@ -2,16 +2,21 @@ quedijisteentwitter:
 ====================
 
 Esta es una aplicacion que permite consultar los 100 ultimos tweets de un usuario,
-ordena las 5 fechas con mas tweets y los despliega a traves de Google Charts.
+ordena las 5 fechas con mas tweets y los despliega a traves de Google Charts. Al 
+hacer click sobre las barras del grafico se pueden ver los tweets de esa fecha.
+
+Para ver como funciona en vivo visitar:
+
+	http://quedijisteentwitter.appspot.com/
 
 Pretende ser un ejercicio practico y util de como las tecnologias antes mencionadas
-pueden funcionar juntas. Disfrutenla!!!!.
+pueden funcionar juntas.
 
 Ademas, si haces click sobre las barras del grafico te permitiran ver los tweets
 que escribiste en ese dia.
 
 La aplicacion esta escrita en Python en el framework Django 1.4.1, utiliza Html5, 
-css3 y JQuery.
+css3 y JQuery. Existe una version en Tornado Web Server.
 
 La aplicacion se puede desplegar en Django y Tornado Web Server.
 
